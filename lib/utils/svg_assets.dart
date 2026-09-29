@@ -1,0 +1,39 @@
+class SvgAssets {
+  static const String trophy = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18 21L12 18L6 21L7 14L2 9L9 8L12 2Z" fill="#F5C242" stroke="#D4A017" stroke-width="2" stroke-linejoin="round"/></svg>''';
+  static const String medalGold = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="14" r="8" fill="#F5C242" stroke="#D4A017" stroke-width="2"/><path d="M12 10L14 14H10L12 10Z" fill="#FFF"/><path d="M8 2L12 6L16 2" stroke="#E05555" stroke-width="4" stroke-linecap="round"/></svg>''';
+  static const String medalSilver = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="14" r="8" fill="#C0C0C0" stroke="#A0A0A0" stroke-width="2"/><path d="M12 10L14 14H10L12 10Z" fill="#FFF"/><path d="M8 2L12 6L16 2" stroke="#E05555" stroke-width="4" stroke-linecap="round"/></svg>''';
+  static const String medalBronze = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="14" r="8" fill="#CD7F32" stroke="#8B4513" stroke-width="2"/><path d="M12 10L14 14H10L12 10Z" fill="#FFF"/><path d="M8 2L12 6L16 2" stroke="#E05555" stroke-width="4" stroke-linecap="round"/></svg>''';
+
+  static const List<String> avatars = [
+    // Avatar 1: Fox
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#FF8C00" stroke="#D2691E" stroke-width="4"/><polygon points="20,20 40,40 20,60" fill="#FFF"/><polygon points="80,20 60,40 80,60" fill="#FFF"/><circle cx="35" cy="45" r="5" fill="#000"/><circle cx="65" cy="45" r="5" fill="#000"/><circle cx="50" cy="65" r="4" fill="#000"/></svg>''',
+    // Avatar 2: Panda
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#FFF" stroke="#000" stroke-width="4"/><circle cx="20" cy="20" r="15" fill="#000"/><circle cx="80" cy="20" r="15" fill="#000"/><ellipse cx="35" cy="45" rx="10" ry="15" fill="#000"/><ellipse cx="65" cy="45" rx="10" ry="15" fill="#000"/><circle cx="50" cy="65" r="6" fill="#000"/></svg>''',
+    // Avatar 3: Tiger
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#FFA500" stroke="#FF4500" stroke-width="4"/><path d="M50 10 L50 30 M30 20 L45 35 M70 20 L55 35" stroke="#000" stroke-width="4" stroke-linecap="round"/><circle cx="35" cy="45" r="5" fill="#000"/><circle cx="65" cy="45" r="5" fill="#000"/><path d="M40 60 Q50 70 60 60" fill="none" stroke="#000" stroke-width="3"/></svg>''',
+    // Avatar 4: Frog
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#32CD32" stroke="#228B22" stroke-width="4"/><circle cx="30" cy="25" r="15" fill="#FFF" stroke="#228B22" stroke-width="3"/><circle cx="70" cy="25" r="15" fill="#FFF" stroke="#228B22" stroke-width="3"/><circle cx="30" cy="25" r="5" fill="#000"/><circle cx="70" cy="25" r="5" fill="#000"/><path d="M30 65 Q50 80 70 65" fill="none" stroke="#000" stroke-width="4"/></svg>''',
+    // Avatar 5: Robot
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="15" width="70" height="70" rx="15" fill="#A9A9A9" stroke="#696969" stroke-width="4"/><rect x="30" y="30" width="15" height="15" fill="#00FFFF"/><rect x="55" y="30" width="15" height="15" fill="#00FFFF"/><rect x="35" y="65" width="30" height="10" rx="5" fill="#000"/></svg>''',
+    // Avatar 6: Ninja
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#1C1C1C" stroke="#000" stroke-width="4"/><rect x="10" y="35" width="80" height="20" fill="#FFE4B5"/><circle cx="35" cy="45" r="4" fill="#000"/><circle cx="65" cy="45" r="4" fill="#000"/><path d="M50 80 L30 100 L70 100 Z" fill="#8B0000"/></svg>''',
+    // Avatar 7: Alien
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><ellipse cx="50" cy="50" rx="45" ry="35" fill="#7FFF00" stroke="#32CD32" stroke-width="4"/><ellipse cx="30" cy="45" rx="8" ry="15" fill="#000" transform="rotate(-20 30 45)"/><ellipse cx="70" cy="45" rx="8" ry="15" fill="#000" transform="rotate(20 70 45)"/><path d="M45 75 Q50 80 55 75" fill="none" stroke="#000" stroke-width="3"/></svg>''',
+    // Avatar 8: Ghost
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M15 90 L15 50 Q15 10 50 10 Q85 10 85 50 L85 90 L70 80 L50 90 L30 80 Z" fill="#F8F8FF" stroke="#DCDCDC" stroke-width="4"/><circle cx="35" cy="40" r="6" fill="#000"/><circle cx="65" cy="40" r="6" fill="#000"/><ellipse cx="50" cy="60" rx="4" ry="8" fill="#000"/></svg>''',
+    // Avatar 9: Bear
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#8B4513" stroke="#5C3317" stroke-width="4"/><circle cx="20" cy="20" r="15" fill="#8B4513" stroke="#5C3317" stroke-width="4"/><circle cx="80" cy="20" r="15" fill="#8B4513" stroke="#5C3317" stroke-width="4"/><circle cx="50" cy="65" r="20" fill="#D2B48C"/><circle cx="35" cy="40" r="4" fill="#000"/><circle cx="65" cy="40" r="4" fill="#000"/><circle cx="50" cy="55" r="5" fill="#000"/></svg>''',
+    // Avatar 10: Owl
+    '''<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><ellipse cx="50" cy="50" rx="40" ry="45" fill="#8B008B" stroke="#4B0082" stroke-width="4"/><circle cx="30" cy="40" r="18" fill="#FFF"/><circle cx="70" cy="40" r="18" fill="#FFF"/><circle cx="30" cy="40" r="5" fill="#000"/><circle cx="70" cy="40" r="5" fill="#000"/><polygon points="50,65 45,55 55,55" fill="#FFA500"/></svg>''',
+  ];
+  
+  static const String slideButtons = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="8" height="8" rx="2" fill="#3DBFBF"/><rect x="13" y="3" width="8" height="8" rx="2" fill="#F07070"/><rect x="3" y="13" width="8" height="8" rx="2" fill="#F5C242"/><rect x="13" y="13" width="8" height="8" rx="2" fill="#4A90D9"/></svg>''';
+  static const String slideCheckboxes = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="16" height="16" rx="3" stroke="#3DBFBF" stroke-width="2"/><path d="M8 12L11 15L16 9" stroke="#3DBFBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>''';
+  static const String slideReorder = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8H20M4 16H20" stroke="#3DBFBF" stroke-width="2" stroke-linecap="round"/><path d="M8 4L12 8L16 4M8 20L12 16L16 20" stroke="#F07070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>''';
+  static const String slideRange = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 12H20" stroke="#3DBFBF" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="12" r="4" fill="#F07070"/></svg>''';
+  static const String slideTypeAnswer = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="20" height="12" rx="2" stroke="#3DBFBF" stroke-width="2"/><path d="M6 10H8M10 10H12M14 10H16M8 14H16" stroke="#F07070" stroke-width="2" stroke-linecap="round"/></svg>''';
+  static const String slideInfo = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="#3DBFBF" stroke-width="2"/><path d="M12 16V12M12 8H12.01" stroke="#F07070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>''';
+
+  static const String hostIcon = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 18H20V20H4V18ZM5 16L4 6L9 9L12 4L15 9L20 6L19 16H5Z" fill="#FFF"/></svg>''';
+  static const String joinIcon = '''<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="#FFF"/></svg>''';
+}
